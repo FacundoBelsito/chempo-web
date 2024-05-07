@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.titulo-phone {
+    border-top: 2px solid gray;
+    width: 100%;
+    padding: .5rem;
+}
+
+.titulos-phone>li {
+    margin-top: 0.8rem;
+}
+
+.titulos-phone {
+    color: #435698;
+    font-size: 20px;
+}
+
+.texto-gris {
+    font-size: 18px;
+    padding: .5rem;
+}
+
+.div-prods {
+    padding: .5rem;
+}
+
+.div-prods>img {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.ocultar {
+    display: none;
+}
+
+@media screen and (min-width : 1520px) {
+
+    .poronga {
+        display: none;
+    }
+
+    .contenido-arriba {
+        margin: 0;
+        margin-top: 3rem;
+        padding: 0;
+    }
+
+    .titulo-phone>h1 {
+        margin-left: 3.8rem;
+        margin-top: 1rem;
+    }
+
+    .texto-gris {
+        background-color: #e2e2e2;
+    }
+
+    .texto-gris>p {
+        margin-left: 3rem;
+        padding: 1rem;
+    }
+
+    .titulos-phone {
+        font-size: 30px;
+        padding: 0;
+        margin-top: 2rem;
+        margin-left: 3.8rem;
+    }
+
+    .titulos-phone>li {
+        display: flex;
+        align-items: center;
+        margin-top: 0.8rem;
+    }
+
+    .div-prods-img {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .div-prods-img>img {
+        width: 30%;
+        height: 30%;
+        margin-right: 28rem;
+        margin-top: 5rem;
+        box-shadow: 0 0 25px black;
+    }
+
+    .titulo-phone {
+        border-top: 4px solid gray;
+    }
+}
+
+@media screen and (min-width : 1025px) {
+
+    .poronga {
+        display: none;
+    }
+
+    .titulo-phone>h1 {
+        margin-left: 3.8rem;
+        margin-top: 1rem;
+    }
+
+    .texto-gris {
+        background-color: #e2e2e2;
+    }
+
+    .texto-gris>p {
+        margin-left: 3rem;
+        padding: 1rem;
+    }
+
+    .titulos-phone {
+        list-style: none;
+        margin-left: 3rem;
+    }
+
+    .titulos-phone>li {
+        display: flex;
+        align-items: center;
+        margin-top: 0.8rem;
+    }
+
+    .div-prods-img {
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+        
+    }
+
+    .div-prods-img>img{
+        width: 40%;
+        height: 30%;
+        margin: 2rem;
+    }
+}
